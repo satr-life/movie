@@ -6,184 +6,95 @@
         <title>高馬ゼミ動画班ページ</title>
         
         <style>
-            @media screen and(min-width: 481px) {
-                * {
-                    box-sizing: border-box;
-                }
-
-                body {
-                    margin: 0;
-                    padding: 0;
-                    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
-                    background-color: #e6e6e6;
-                }
-
-                header {
-                    padding: 30px 4% 30px;
-                    position: fixed;
-                    top: 0;
-                    width: 100%;
-                    background-color: #1B96EA;
-                    display: flex;
-                    align-items: center;
-                }
-
-                .header-list {
-                    margin: 0 0 0 auto;
-                }
-
-                h1 {
-                    color: white;
-                    margin: 0; padding: 0;
-                    font-size: 30px;
-                    font-family: 'Toppan Bunkyu Midashi Gothic'; font-weight: bold;
-                }
-
-                ul {
-                    list-style: none;
-                    margin: 0px;
-                    display: flex;
-                }
-
-                .chat-list-ul {
-                    margin: 0px;
-                }
-
-                li {
-                    margin: 0 0 0 15px;
-                    font-size: 15px;
-                }
-
-                .chat-list-li {
-                    margin:0 0 30px 15px;
-                    font-size: 15px;
-                }
-
-                a {
-                    text-decoration: none;
-                    color: #FFFFFF;
-                }
-
-                main {
-                    width: 100%;
-                    background-color: #EFE0A3;
-                    padding-left: 10%;
-                    padding-right: 10%;
-                    padding-top: 180px;
-                    padding-bottom:400px;
-
-                }
-
-                button {
-                    padding: 2px 5px;
-                    background-color: #AD0404;
-                    color: #FFFFFF;
-                    font-size:20px;
-                    margin-top: 20px;
-                    margin-left:110px;
-                }
-
-                h2 {
-                    color: black;
-                    font-size: 20px;
-                }
-                .movie {
-                    background-color: black;
-                }
-                .movie-content {
-                    width: 100%;
-                    height: 400px;
-                }
+            * {
+                box-sizing: border-box;
             }
-            @media screen and(max-width: 480px) {
-                * {
-                    box-sizing: border-box;
-                }
 
-                body {
-                    margin: 0;
-                    padding: 0;
-                    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
-                    background-color: #e6e6e6;
-                }
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                background-color: #e6e6e6;
+            }
 
-                header {
-                    padding: 10px 4% 10px;
-                    position: fixed;
-                    top: 0;
-                    width: 100%;
-                    background-color: #1B96EA;
-                    display: flex;
-                    align-items: center;
-                }
+            header {
+                padding: 30px 4% 30px;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: #1B96EA;
+                display: flex;
+                align-items: center;
+            }
 
-                .header-list {
-                    margin: 0 0 0 auto;
-                }
+            .header-list {
+                margin: 0 0 0 auto;
+            }
 
-                h1 {
-                    color: white;
-                    margin: 0; padding: 0;
-                    font-size: 10px;
-                    font-family: 'Toppan Bunkyu Midashi Gothic'; font-weight: bold;
-                }
+            h1 {
+                color: white;
+                margin: 0; padding: 0;
+                font-size: 30px;
+                font-family: 'Toppan Bunkyu Midashi Gothic'; font-weight: bold;
+            }
 
-                ul {
-                    list-style: none;
-                    margin: 0px;
-                    display: flex;
-                }
+            ul {
+                list-style: none;
+                margin: 0px;
+                display: flex;
+            }
 
-                .chat-list-ul {
-                    margin: 0px;
-                }
+            .chat-list-ul {
+                margin: 0px;
+            }
 
-                li {
-                    margin: 0 0 0 15px;
-                    font-size: 15px;
-                }
+            li {
+                margin: 0 0 0 15px;
+                font-size: 15px;
+            }
 
-                .chat-list-li {
-                    margin:0 0 30px 15px;
-                    font-size: 15px;
-                }
+            .chat-list-li {
+                margin:0 0 30px 15px;
+                font-size: 15px;
+            }
 
-                a {
-                    text-decoration: none;
-                    color: #FFFFFF;
-                }
+            a {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
 
-                main {
-                    width: 100%;
-                    background-color: #EFE0A3;
-                    padding-left: 10%;
-                    padding-right: 10%;
-                    padding-top: 180px;
-                    padding-bottom:400px;
+            main {
+                width: 100%;
+                background-color: #EFE0A3;
+                padding-left: 10%;
+                padding-right: 10%;
+                padding-top: 180px;
+                padding-bottom:400px;
 
-                }
+            }
 
-                button {
-                    padding: 2px 5px;
-                    background-color: #AD0404;
-                    color: #FFFFFF;
-                    font-size:20px;
-                    margin-top: 20px;
-                    margin-left:110px;
-                }
+            button {
+                padding: 2px 5px;
+                background-color: #AD0404;
+                color: #FFFFFF;
+                font-size:20px;
+                margin-top: 20px;
+                margin-left:110px;
+            }
 
-                h2 {
-                    color: black;
-                    font-size: 20px;
-                }
-                .movie {
-                    background-color: black;
-                }
-                .movie-content {
+            h2 {
+                color: black;
+                font-size: 20px;
+            }
+            .movie {
+                background-color: black;
+            }
+            
+            .movie-content {
                 width: 100%;
                 height: 200px;
-                }
             }
+            
         </style>
     </head>
     <body>
